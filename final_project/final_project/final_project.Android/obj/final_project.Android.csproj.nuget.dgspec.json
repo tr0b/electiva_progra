@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj": {}
+    "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj": {
+    "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
+        "projectUniqueName": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
         "projectName": "final_project.Android",
-        "projectPath": "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
-        "packagesPath": "C:\\Users\\shitdows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project.Android\\obj\\",
+        "projectPath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
+        "packagesPath": "C:\\Users\\kathr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\shitdows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kathr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project\\final_project.csproj": {
-                "projectPath": "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project\\final_project.csproj"
+              "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {
+                "projectPath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project\\final_project.csproj": {
+    "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project\\final_project.csproj",
+        "projectUniqueName": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj",
         "projectName": "final_project",
-        "projectPath": "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project\\final_project.csproj",
-        "packagesPath": "C:\\Users\\shitdows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shitdows\\source\\repos\\final_project\\final_project\\final_project\\obj\\",
+        "projectPath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj",
+        "packagesPath": "C:\\Users\\kathr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\shitdows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kathr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -119,7 +119,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

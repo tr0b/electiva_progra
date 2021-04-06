@@ -13,6 +13,19 @@ namespace final_project
         public MainPage()
         {
             InitializeComponent();
+            btnIR.Clicked += BtnIR_Clicked;
+            btnRecuperar.Clicked += BtnRecuperar_Clicked;
+        }
+
+        private void BtnIR_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new Inicio());
+
+        }
+        private void BtnRecuperar_Clicked(object sender, EventArgs e)
+        {
+
+
         }
     }
 }

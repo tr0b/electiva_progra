@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="final_project.Producto">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tb0" IconImageSource="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png"  Priority="0" Order="Primary"></ToolbarItem>
+        <ToolbarItem x:Name="tb1" IconImageSource="https://image.flaticon.com/icons/png/512/126/126934.png" Priority="1" Order="Primary"></ToolbarItem>
+        <ToolbarItem x:Name="tb2" Text="Inicio" Priority="2" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb3" Text="Categorías" Priority="3" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="5" Order="Secondary"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+  
+        <ScrollView>
+        <StackLayout Padding="40,-20,40,0">
+            <Image x:Name="imagenProducto" Source="https://dlcdnwebimgs.asus.com/gain/bb27b53c-c079-44b9-850e-fcd8743dc742/" Grid.Row="0" Grid.Column="0"></Image>
+            <Label x:Name="nombreProducto" Text="ZenBook Duo 14 (UX482)"></Label>
+            <Label  Text="Ficha técnica" FontAttributes="Bold"></Label>
+           
+            <Label x:Name="descProducto" Text="Windows 10 Home - ASUS recommends Windows 10 Pro for business - Windows 10 Pro - ASUS recommends Windows 10 Pro for business 16GB LPDDR4X on board, Memory Max Up to:32GB - 8GB LPDDR4X on board, Memory Max Up to:32GB - 32GB LPDDR4X on board, Memory Max Up to:32GB"></Label>
+            
+            
+            <Label x:Name="precioProducto" Text="$1590" FontAttributes="Bold"></Label>
+            
+            
+            <Label   Text="Selecciona el tiempo de la cuota con la que deseas realizar tus pagos" FontSize="Small"></Label>
+            <Label x:Name="cuotaProducto" Text="Cuota Dropdown menu"></Label>
+            
+            
+            <StackLayout Padding="20,20,20,20">
+               <Button x:Name="btnCarrito" Text="Agregar a carrito" CornerRadius="3"></Button>
+            </StackLayout>      
+            
+            
+        </StackLayout>
+        </ScrollView>
+
+</ContentPage>
