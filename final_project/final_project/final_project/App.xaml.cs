@@ -10,7 +10,12 @@ namespace final_project
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.White,
+                BarTextColor = Color.Black
+
+            };
         }
 
         protected override void OnStart()

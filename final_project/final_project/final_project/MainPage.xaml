@@ -1,24 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="final_project.MainPage">
+             x:Class="final_project.MainPage"
+              NavigationPage.HasNavigationBar="False">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+    <Grid>
+        <Image Source="https://a.rgbimg.com/cache1uP3P0/users/x/xy/xymonau/300/o99zE7C.jpg" Aspect="AspectFill"></Image>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" ></RowDefinition>
+                <RowDefinition Height="*" ></RowDefinition>
+                <RowDefinition Height="Auto" ></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Image Grid.Row="0" Source="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png" WidthRequest="100"
+                   HeightRequest="100" Margin="30,50,30,30"></Image>
+
+            <StackLayout Grid.Row="1" Padding="30,20" >
+                <Entry Placeholder="Correo Electrónico" ></Entry>
+                <Entry Placeholder="Contraseña"  IsPassword="True" ></Entry>
+                <StackLayout Grid.Row="1" Padding="10,40,30,0">
+                    <Button x:Name="btnIR"  Text="Ingresar" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"
+                       ></Button>
+                    <Button x:Name="btnRecuperar"  Text="Recuperar Contraseña" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"
+                        ></Button>
+                </StackLayout>
+
+            </StackLayout>
+
+        </Grid>
+    </Grid>
+
 
 </ContentPage>

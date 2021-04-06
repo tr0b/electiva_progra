@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="final_project.Categorias">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tb0" IconImageSource="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png"  Priority="0" Order="Primary"></ToolbarItem>
+        <ToolbarItem x:Name="tb1" IconImageSource="https://image.flaticon.com/icons/png/512/126/126934.png" Priority="1" Order="Primary"></ToolbarItem>
+        <ToolbarItem x:Name="tb2" Text="Inicio" Priority="2" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb3" Text="Categorías" Priority="3" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="5" Order="Secondary"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout Padding="20,10,20,10">
+            
+            <Label Text="Productos" FontSize="24" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+            <StackLayout Padding="20,0,20,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Entry Grid.Row="0" Grid.Column="1" Placeholder="Buscar" ></Entry>
+                    <Label Grid.Row="0" Grid.Column="0" Text="Categorias" FontSize="18" FontAttributes="Bold"></Label>
+                </Grid>
+                
+            </StackLayout>
+
+            <Button x:Name="Producto" Text="Provisional ver producto" ></Button>
+
+            <ListView >
+                <ListView.ItemsSource >
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Laptop 0</x:String>
+                        <x:String>Laptop 2</x:String>
+                        <x:String>Laptop 3</x:String>
+                        <x:String>Laptop 4</x:String>
+                        <x:String>Laptop 4</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+            
+      </StackLayout>
+        
+    </ScrollView>
+</ContentPage>
