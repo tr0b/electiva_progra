@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {}
+    "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {
+    "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj",
+        "projectUniqueName": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj",
         "projectName": "final_project",
-        "projectPath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj",
-        "packagesPath": "C:\\Users\\kathr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\obj\\",
+        "projectPath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj",
+        "packagesPath": "C:\\Users\\rafac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\kathr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
