@@ -20,6 +20,7 @@
             <StackLayout Grid.Row="1" Padding="30,20" >
                 <Entry Placeholder="Correo Electrónico" ></Entry>
                 <Entry Placeholder="Contraseña"  IsPassword="True" ></Entry>
+
                 <StackLayout Grid.Row="1" Padding="10,40,30,0">
                     <Button x:Name="btnIR"  Text="Ingresar" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"
                        ></Button>

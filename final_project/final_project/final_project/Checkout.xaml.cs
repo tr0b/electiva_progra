@@ -19,7 +19,7 @@ namespace final_project
             tb2.Clicked += Tb2_Clicked;
             tb3.Clicked += Tb3_Clicked;
             tb4.Clicked += Tb4_Clicked;
-            btnConfirmar.Clicked += BtnConfirmar_Clicked;
+            btnVerificar.Clicked += BtnConfirmar_Clicked;
         }
 
         private void BtnConfirmar_Clicked(object sender, EventArgs e)
