@@ -12,6 +12,13 @@ namespace final_project
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Producto : ContentPage
     {
+        public int idProducto { get; set; }
+        public string Nombre { get; set; }
+        public double Precio { get; set; }
+        public string Descripcion { get; set; }
+        public int Cantidad { get; set; }
+        public string Imagen { get; set; }
+
         public Producto()
         {
             InitializeComponent();

@@ -18,7 +18,6 @@ namespace final_project
         {
             InitializeComponent();
             btnIR.Clicked += BtnIR_Clicked;
-
         }
 
         private void BtnIR_Clicked(object sender, EventArgs e)

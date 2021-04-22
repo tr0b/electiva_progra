@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "MySqlConnector/1.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
         "type": "package",
         "dependencies": {
@@ -788,6 +797,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MySqlConnector": "1.3.4",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -801,6 +811,36 @@
     }
   },
   "libraries": {
+    "MySqlConnector/1.3.4": {
+      "sha512": "Q5m+Kd1GkirH+2Ftfl2yJBXRIiSxydctav6sIapThNSNK0aoz9L+ibKpD/9PEsE1a8Vpdb+IxMUgB/atICCpzw==",
+      "type": "package",
+      "path": "mysqlconnector/1.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MySqlConnector.dll",
+        "lib/net45/MySqlConnector.xml",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net5.0/MySqlConnector.dll",
+        "lib/net5.0/MySqlConnector.xml",
+        "lib/netcoreapp2.1/MySqlConnector.dll",
+        "lib/netcoreapp2.1/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard1.3/MySqlConnector.dll",
+        "lib/netstandard1.3/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.1.3.4.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
       "sha512": "ss+hnEoFeyxLgHk3TrCBqTMkK6ZJqhq382AONzdVGg7cyVibvBMWPX2Xp5byB8tvRJOMRIWZnqyqgpYQIagkZA==",
       "type": "package",
@@ -1933,24 +1973,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafac\\.nuget\\packages\\": {},
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
       "projectName": "final_project.Android",
-      "projectPath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
-      "packagesPath": "C:\\Users\\rafac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\obj\\",
+      "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\rafac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1964,8 +2004,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {
-              "projectPath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj"
+            "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj"
             }
           }
         }

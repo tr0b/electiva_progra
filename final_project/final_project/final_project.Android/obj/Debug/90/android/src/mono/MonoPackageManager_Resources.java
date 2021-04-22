@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"final_project.Android.dll",
 		"final_project.dll",
 		"FormsViewGroup.dll",
+		"MySqlConnector.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
