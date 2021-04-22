@@ -18,8 +18,9 @@
                    HeightRequest="100" Margin="30,50,30,30"></Image>
 
             <StackLayout Grid.Row="1" Padding="30,20" >
-                <Entry Placeholder="Correo Electrónico" ></Entry>
-                <Entry Placeholder="Contraseña"  IsPassword="True" ></Entry>
+                <Entry x:Name="email" Placeholder="Correo Electrónico" ></Entry>
+                <Entry x:Name="password"  Placeholder="Contraseña"  IsPassword="True" ></Entry>
+                <Label x:Name="log"></Label>
                 <StackLayout Grid.Row="1" Padding="10,40,30,0">
                     <Button x:Name="btnIR"  Text="Ingresar" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"
                        ></Button>
