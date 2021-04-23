@@ -46,7 +46,7 @@
  
             </Grid>
             <StackLayout Padding="40,20,40,0">
-                <Button x:Name="btnPagar" Text="Pagar"></Button>
+                <Button x:Name="btnPagar" Text="Efectuar pago" CornerRadius="25" BackgroundColor="GreenYellow" FontSize="22"></Button>
             </StackLayout>
 
            

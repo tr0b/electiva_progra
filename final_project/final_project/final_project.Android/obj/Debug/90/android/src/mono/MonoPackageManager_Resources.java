@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"final_project.Android.dll",
 		"final_project.dll",
 		"FormsViewGroup.dll",
+		"MySqlConnector.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -47,6 +48,8 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Xamd.ImageCarousel.Forms.Plugin.Abstractions.dll",
+		"Xamd.ImageCarousel.Forms.Plugin.Droid.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

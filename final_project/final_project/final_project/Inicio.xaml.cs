@@ -19,8 +19,19 @@ namespace final_project
             tb2.Clicked += Tb2_Clicked;
             tb3.Clicked += Tb3_Clicked;
             tb4.Clicked += Tb4_Clicked;
+            btnManeroProductos.Clicked += ManejoProductos_Clicked;
+            tbAdmin.Clicked += TbAdmin_Clicked;
         }
+        private void TbAdmin_Clicked(object sender, EventArgs e)
+        {
 
+            ((NavigationPage)this.Parent).PushAsync(new AdminPage());
+        }
+        private void ManejoProductos_Clicked(object sender, EventArgs e)
+        {
+
+            ((NavigationPage)this.Parent).PushAsync(new ManejoProducto());
+        }
         private void Tb1_Clicked(object sender, EventArgs e)
         {
             ((NavigationPage)this.Parent).PushAsync(new Carrito());

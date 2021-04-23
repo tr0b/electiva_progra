@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="final_project.AdminPage">
+    <Grid>
+        <Image Source="https://a.rgbimg.com/cache1uP3P0/users/x/xy/xymonau/300/o99zE7C.jpg" Aspect="AspectFill"></Image>
+
+        <StackLayout>
+            <Label Text="Menú administrador" HorizontalOptions="CenterAndExpand" FontSize="Title" TextColor="Black"/>
+            <Image Source="https://images.vexels.com/media/users/3/136558/isolated/preview/43cc80b4c098e43a988c535eaba42c53-icono-de-usuario-de-persona-by-vexels.png"></Image>
+            <Button x:Name="btnUsuarios"  Text="Administrador de usuarios" BackgroundColor="AliceBlue" TextColor="Black" CornerRadius="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button x:Name="btnProductos"  Text="Administrador de productos" BackgroundColor="AliceBlue" TextColor="Black" CornerRadius="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button x:Name="btnCarrito"  Text="Administrador de carrito" BackgroundColor="AliceBlue" TextColor="Black" CornerRadius="25" VerticalOptions="Center" HorizontalOptions="Center"    />
+        </StackLayout>
+        
+
+
+    </Grid>
+</ContentPage>  

@@ -17,6 +17,9 @@
             <Label  Text="Mis Pagos" FontAttributes="Bold"  FontSize="24" VerticalOptions="Center" HorizontalOptions="Center"></Label>
             <Label  Text="Selecciona el item para realizar el abono"  FontSize="Small" VerticalOptions="Center" HorizontalOptions="Center"></Label>
 
+            <Button Text="Carrito" FontSize="22" BackgroundColor="GreenYellow" 
+                        TextColor="Black" x:Name="btnCarrito" CornerRadius="25" Grid.Row="9" Grid.Column="1" Grid.RowSpan="1"/>
+
             <StackLayout>
 
             </StackLayout>

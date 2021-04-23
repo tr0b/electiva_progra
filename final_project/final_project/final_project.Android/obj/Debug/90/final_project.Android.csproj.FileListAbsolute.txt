@@ -982,3 +982,16 @@ C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\fina
 C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\MySqlConnector.dll
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\lp\41\jl\files.cache
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\System.Linq.Expressions.dll
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\System.ObjectModel.dll
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\System.Reflection.dll
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\Xamd.ImageCarousel.Forms.Plugin.Abstractions.dll
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\Xamd.ImageCarousel.Forms.Plugin.Abstractions.dll.mdb
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\Xamd.ImageCarousel.Forms.Plugin.Droid.dll
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\assets\Xamd.ImageCarousel.Forms.Plugin.Droid.dll.mdb
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\src\crc644a02debf0846b80a\ImageCarouselRenderer.java
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project.Android\obj\Debug\90\android\src\crc644a02debf0846b80a\ImageCarouselRenderer_GestureListener.java
