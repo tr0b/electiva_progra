@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9YpuuZVTWldT8XudPLSEediy2rb7gO78zsWAyWgzDrU9/wHextlmdnwACTZA6ROsgvWgwbS2sWqd5g60/GpDEg==",
+  "dgSpecHash": "SYZxkCOQdoc3KlLpdiD/iMeJsPtRzLe7TNX44i1x6hEvbnlQ8wEmzzShYs/HgYMMDh9Uf5t3Ioxox6t1gIHo4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
+  "projectFilePath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
