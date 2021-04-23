@@ -12,7 +12,7 @@ namespace final_project
 
             MainPage = new NavigationPage(new MainPage())
             {
-                BarBackgroundColor = Color.White,
+                BarBackgroundColor = Color.FromHex("#CCD1D1"),
                 BarTextColor = Color.Black
 
             };

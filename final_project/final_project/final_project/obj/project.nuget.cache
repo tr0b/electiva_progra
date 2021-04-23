@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "J7hF9qMrz0MdZVKyvcjD8ljZxMfy30Giw5T4QrbRbVZPXgFrPKsMNJtpNI+d46mhO5Q6F5rJo1b6hMOh9wQ33g==",
+  "dgSpecHash": "TG1PKAUeR/hRnLNsTzlbg++vJWuQMwkP/Xr1f3EwJg7lMdl/j1MgbWmekZ4X0pT9VuTnoKG69H1NvvsBkQCCXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj",
+  "projectFilePath": "C:\\Users\\kathr\\Source\\Repos\\tr0b\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rafac\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\rafac\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\rafac\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\kathr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kathr\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\kathr\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],

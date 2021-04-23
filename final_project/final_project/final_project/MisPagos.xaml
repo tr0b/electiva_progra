@@ -2,11 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="final_project.MisPagos">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tb0" IconImageSource="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png"  Priority="0" Order="Primary"></ToolbarItem>
+        <ToolbarItem x:Name="tb1" IconImageSource="https://image.flaticon.com/icons/png/512/126/126934.png" Priority="1" Order="Primary"></ToolbarItem>
+        <ToolbarItem x:Name="tb2" Text="Inicio" Priority="2" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb3" Text="Categorías" Priority="3" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="5" Order="Secondary"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout Padding="40,10,40,0">
+            <Label  Text="Mis Pagos" FontAttributes="Bold"  FontSize="24" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Label  Text="Selecciona el item para realizar el abono"  FontSize="Small" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+
+            <StackLayout>
+
+            </StackLayout>
         </StackLayout>
-    </ContentPage.Content>
+
+    </ScrollView>
 </ContentPage>
