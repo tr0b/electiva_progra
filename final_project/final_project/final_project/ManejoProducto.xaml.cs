@@ -19,6 +19,7 @@ namespace final_project
             btnAdd.Clicked += btnAdd_Clicked;
             btnEditar.Clicked += btnEditar_Clicked;
             btnRemover.Clicked += btnRemover_Clicked;
+            tb5.Clicked += Tb5_Clicked;
         }
         private void btnAdd_Clicked(object sender, EventArgs e)
         {
@@ -34,6 +35,11 @@ namespace final_project
         {
             ProductoDetalle.DeleteProduct(Convert.ToInt32(txtIdR.Text));
             resultadoR.Text = "Producto Removido";
+        }
+        private void Tb5_Clicked(object sender, EventArgs e)
+        {
+
+            ((NavigationPage)this.Parent).PushAsync(new MainPage());
         }
 
     }

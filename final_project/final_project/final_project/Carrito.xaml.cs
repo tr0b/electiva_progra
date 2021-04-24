@@ -19,6 +19,7 @@ namespace final_project
             tb2.Clicked += Tb2_Clicked;
             tb3.Clicked += Tb3_Clicked;
             tb4.Clicked += Tb4_Clicked;
+            tb5.Clicked += Tb5_Clicked;
             btnPagar.Clicked += BtnPagar_Clicked;
         }
 
@@ -47,6 +48,11 @@ namespace final_project
         {
 
             ((NavigationPage)this.Parent).PushAsync(new Checkout());
+        }
+        private void Tb5_Clicked(object sender, EventArgs e)
+        {
+
+            ((NavigationPage)this.Parent).PushAsync(new MainPage());
         }
     }
 }
