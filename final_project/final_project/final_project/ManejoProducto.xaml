@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="final_project.ManejoProducto">
+
+    <ContentPage.Content>
+        <ScrollView> 
+            <StackLayout BackgroundColor="White">
+            <Label Text="Agregar Producto" FontSize="Large" TextColor="Black" Margin="10" />
+            <Entry x:Name="txtNombre" Placeholder="Nombre" Keyboard="Text" Text="{Binding Nombre}" />
+            <Entry x:Name="txtPrecio" Placeholder="Precio" Keyboard="Text" Text="{Binding Precio}" />
+            <Entry x:Name="txtDescripcion" Placeholder="Descripción" Keyboard="Text" Text="{Binding Descripcion}" />
+            <Entry x:Name="txtCantidad" Placeholder="Cantidad" Keyboard="Text" Text="{Binding Cantidad}" />
+            <Entry x:Name="txtImagen" Placeholder="URL Imagen" Keyboard="Text" Text="{Binding Imagen}" />
+             <Button Text="Agregar" x:Name="btnAdd" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+             <Label Text="" x:Name="resultado" HorizontalOptions="Center"></Label>
+
+            <Label Text="Editar Producto" FontSize="Large" TextColor="Black" Margin="10" />
+            <Entry x:Name="txtIdE" Placeholder="ID" Keyboard="Text" Text="{Binding idProducto}" />
+            <Entry x:Name="txtNombreE" Placeholder="Nombre" Keyboard="Text" Text="{Binding Nombre}" />
+            <Entry x:Name="txtPrecioE" Placeholder="Precio" Keyboard="Text" Text="{Binding Precio}" />
+            <Entry x:Name="txtDescripcionE" Placeholder="Descripción" Keyboard="Text" Text="{Binding Descripcion}" />
+            <Entry x:Name="txtCantidadE" Placeholder="Cantidad" Keyboard="Text" Text="{Binding Cantidad}" />
+            <Entry x:Name="txtImagenE" Placeholder="URL Imagen" Keyboard="Text" Text="{Binding Imagen}" />
+            <Button Text="Guardar" x:Name="btnEditar" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+            <Label Text="" x:Name="resultadoE" HorizontalOptions="Center"></Label>
+
+            <Label Text="Remover Producto" FontSize="Large" TextColor="Black" Margin="10" />
+                <Entry x:Name="txtIdR" Placeholder="ID" Keyboard="Text" Text="{Binding idProducto}" />
+                <Button Text="Remover" x:Name="btnRemover" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+            <Label Text="" x:Name="resultadoR" HorizontalOptions="Center"></Label>
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

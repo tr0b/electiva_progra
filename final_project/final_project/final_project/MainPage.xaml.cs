@@ -18,7 +18,12 @@ namespace final_project
         {
             InitializeComponent();
             btnIR.Clicked += BtnIR_Clicked;
+            btnRegistro.Clicked += btnRegistro_Clicked;
+        }
 
+        private void btnRegistro_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new SignUp());
         }
 
         private void BtnIR_Clicked(object sender, EventArgs e)
