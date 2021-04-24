@@ -26,9 +26,9 @@ namespace final_project
             tb3.Clicked += Tb3_Clicked;
             tb4.Clicked += Tb4_Clicked;
             tb5.Clicked += Tb5_Clicked;
-            verProducto.Clicked += VerProducto_Clicked;
             BindingContext = this;
             GetProducts();
+          //  verProducto.Clicked += VerProducto_Clicked;
         }
         private void Tb1_Clicked(object sender, EventArgs e)
         {
@@ -58,7 +58,7 @@ namespace final_project
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Product selectedItem = e.SelectedItem as Product;
+            ((NavigationPage)this.Parent).PushAsync(new Producto());
         }
         private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
@@ -71,9 +71,7 @@ namespace final_project
         }
 
         private void GetProducts()
-        {
-            
-
+        {          
                 string productosQuery = "SELECT Nombre, Descripcion, Precio, Imagen FROM producto";
 
                 //Productos.Add(new Producto

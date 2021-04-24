@@ -28,11 +28,22 @@
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" Text="Articulo" FontAttributes="Bold"></Label>
                 <Label Grid.Row="0" Grid.Column="1" Text="Precio Total" FontAttributes="Bold"></Label>
-                <Label Grid.Row="0" Grid.Column="3" Text="Cuota" FontAttributes="Bold"></Label>
+                <Label Grid.Row="0" Grid.Column="2" Text="Cuotas" FontAttributes="Bold"></Label>
+                
+                <Label Grid.Row="1" Grid.Column="0"  Text="ZenBook Duo 14"></Label>
+                <Label Grid.Row="1" Grid.Column="1" Text="1590"></Label>
+
+                <Picker Grid.Row="1" Grid.Column="2" x:Name="cuota" Title="Seleccione" TitleColor="Black" FontSize="Small">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>3 cuotas</x:String>
+                            <x:String>6 cuotas</x:String>
+                            <x:String>9 cuotas</x:String>
+                            <x:String>12 cuotas</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
             </Grid>
-
-
-            <Label Text="INSERTAR AQUI LA LISTA DE PRODUCTOS AGREGADOS AL CARRITO"></Label>
 
             <Grid Padding="0,20,0,0">
                 <Grid.RowDefinitions>
@@ -44,7 +55,7 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" FontAttributes="Bold" Text="Total a Pagar Hoy:"></Label>
-                <Label Grid.Row="0" Grid.Column="1"  Text="$"></Label>
+                <Label Grid.Row="0" Grid.Column="1"  Text="$1590"></Label>
 
             </Grid>
             <StackLayout Padding="40,20,40,0">

@@ -23,12 +23,7 @@
             
             
             <Label x:Name="precioProducto" Text="$1590" FontSize="15" FontAttributes="Bold" TextColor="Black"></Label>
-            
-            
-            <Label   Text="Selecciona el tiempo de la cuota con la que deseas realizar tus pagos" FontSize="Small"></Label>
-            <Label x:Name="cuotaProducto" Text="Cuota Dropdown menu"></Label>
-            
-            
+                    
             <StackLayout Padding="20,20,20,20">
                <Button x:Name="btnCarrito" Text="Agregar a carrito" BackgroundColor="GreenYellow" CornerRadius="25" FontSize="20"></Button>
             </StackLayout>      
