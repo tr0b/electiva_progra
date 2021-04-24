@@ -18,10 +18,10 @@
                    HeightRequest="100" Margin="30,50,30,30"></Image>
 
             <StackLayout Grid.Row="1" Padding="30,20" >
-                <Entry x:Name="txtNombre" Placeholder="Nombre" ></Entry>
-                <Entry x:Name="txtApellido" Placeholder="Apellido" ></Entry>
-                <Entry x:Name="txtCorreo" Placeholder="Correo Electrónico" ></Entry>
-                <Entry x:Name="txtPassword"  Placeholder="Contraseña"  IsPassword="True" ></Entry>
+                <Entry x:Name="txtNombre" Placeholder="Nombre" TextColor="Black"></Entry>
+                <Entry x:Name="txtApellido" Placeholder="Apellido" TextColor="Black"></Entry>
+                <Entry x:Name="txtCorreo" Placeholder="Correo Electrónico" TextColor="Black"></Entry>
+                <Entry x:Name="txtPassword"  Placeholder="Contraseña"  IsPassword="True" TextColor="Black"></Entry>
                 <Label x:Name="log"></Label>
                 <StackLayout Grid.Row="1" Padding="10,40,30,0">
                     <Button x:Name="btnCrearUsuario"  Text="Crear Cuenta" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"

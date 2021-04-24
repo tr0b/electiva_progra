@@ -8,7 +8,9 @@
         <ToolbarItem x:Name="tb2" Text="Inicio" Priority="2" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tb3" Text="Productos" Priority="3" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
-        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="5" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tbAdmin"  Text="Admin" Priority="5" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="6" Order="Secondary"></ToolbarItem>
+
     </ContentPage.ToolbarItems>
 
     <ScrollView>
@@ -17,7 +19,7 @@
             <Grid Padding="0,20,0,20">
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
-                    
+
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition></ColumnDefinition>
@@ -31,7 +33,7 @@
 
 
             <Label Text="INSERTAR AQUI LA LISTA DE PRODUCTOS AGREGADOS AL CARRITO"></Label>
-            
+
             <Grid Padding="0,20,0,0">
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
@@ -43,14 +45,14 @@
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" FontAttributes="Bold" Text="Total a Pagar Hoy:"></Label>
                 <Label Grid.Row="0" Grid.Column="1"  Text="$"></Label>
- 
+
             </Grid>
             <StackLayout Padding="40,20,40,0">
-                <Button x:Name="btnPagar" Text="Pagar"></Button>
+                <Button x:Name="btnPagar" Text="Efectuar pago" CornerRadius="25" BackgroundColor="GreenYellow" FontSize="22"></Button>
             </StackLayout>
 
-           
-            
+
+
         </StackLayout>
     </ScrollView>
 </ContentPage>

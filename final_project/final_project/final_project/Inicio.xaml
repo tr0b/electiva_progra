@@ -8,20 +8,22 @@
         <ToolbarItem x:Name="tb2" Text="Inicio" Priority="2" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tb3" Text="Productos" Priority="3" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
-        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="5" Order="Secondary"></ToolbarItem>
-        <ToolbarItem x:Name="btnManejoProductos"  Text="Manejo Productos" Priority="6" Order="Secondary"></ToolbarItem>
-        <ToolbarItem x:Name="btnManejoUsuarios"  Text="Manejo Usuarios" Priority="7" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tbAdmin"  Text="Admin" Priority="5" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="6" Order="Secondary"></ToolbarItem>
+
     </ContentPage.ToolbarItems>
     <ScrollView>
         <StackLayout>
-
-            <Image Source="https://tecnoplaza.com.co/sitio/wp-content/uploads/2017/11/Banner-Asus-Movil_2.png" WidthRequest="200"
+            <Image Source="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png" WidthRequest="50"
+                   HeightRequest="50" ></Image>
+            <Image Source="https://microless.com/cdn/product_description/5184532_1582564282.jpg" WidthRequest="250"
                    HeightRequest="200" ></Image>
-            <Label Text="Nueva Asus M509DJ" FontSize="24"  TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Image Source="https://tecnoplaza.com.co/sitio/wp-content/uploads/2020/08/Asus-M509DJ2.png" WidthRequest="200"
+            <Image Source="https://cdn2.globomatik.com/media/brands/cache/1/33/2898f881dd164faded2177118cbea919/Asus_banner_image_proart.png" WidthRequest="150"
                    HeightRequest="200" ></Image>
-
-
+            <Image Source="https://m.media-amazon.com/images/S/aplus-media/vc/8b4d8a28-8667-46ec-a2cd-5a72e94764f7.__CR0,0,1940,600_PT0_SX970_V1___.jpg" WidthRequest="150"
+                   HeightRequest="200" ></Image>
+            <Image Source="https://www.enostech.com/wp-content/uploads/2017/01/GR8-II-banner-2000x720.jpg" WidthRequest="150"
+                   HeightRequest="200" ></Image>
         </StackLayout>
 
     </ScrollView>

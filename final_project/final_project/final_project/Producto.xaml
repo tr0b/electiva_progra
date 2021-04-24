@@ -11,18 +11,18 @@
         <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="5" Order="Secondary"></ToolbarItem>
     </ContentPage.ToolbarItems>
-    
-  
-        <ScrollView>
+
+
+    <ScrollView>
         <StackLayout Padding="40,-20,40,0">
             <Image x:Name="imagenProducto" Source="https://dlcdnwebimgs.asus.com/gain/bb27b53c-c079-44b9-850e-fcd8743dc742/" Grid.Row="0" Grid.Column="0"></Image>
-            <Label x:Name="nombreProducto" Text="ZenBook Duo 14 (UX482)"></Label>
+            <Label x:Name="nombreProducto" Text="ZenBook Duo 14 (UX482)" TextColor="Black"></Label>
             <Label  Text="Ficha técnica" FontAttributes="Bold"></Label>
            
             <Label x:Name="descProducto" Text="Windows 10 Home - ASUS recommends Windows 10 Pro for business - Windows 10 Pro - ASUS recommends Windows 10 Pro for business 16GB LPDDR4X on board, Memory Max Up to:32GB - 8GB LPDDR4X on board, Memory Max Up to:32GB - 32GB LPDDR4X on board, Memory Max Up to:32GB"></Label>
             
             
-            <Label x:Name="precioProducto" Text="$1590" FontAttributes="Bold"></Label>
+            <Label x:Name="precioProducto" Text="$1590" FontSize="15" FontAttributes="Bold" TextColor="Black"></Label>
             
             
             <Label   Text="Selecciona el tiempo de la cuota con la que deseas realizar tus pagos" FontSize="Small"></Label>
@@ -30,7 +30,7 @@
             
             
             <StackLayout Padding="20,20,20,20">
-               <Button x:Name="btnCarrito" Text="Agregar a carrito" CornerRadius="3"></Button>
+               <Button x:Name="btnCarrito" Text="Agregar a carrito" BackgroundColor="GreenYellow" CornerRadius="25" FontSize="20"></Button>
             </StackLayout>      
             
             

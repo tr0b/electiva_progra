@@ -3,30 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="final_project.ManejoUsuario">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tb0" IconImageSource="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png"  Priority="0" Order="Primary"></ToolbarItem>
+        <ToolbarItem x:Name="tb1" IconImageSource="https://image.flaticon.com/icons/png/512/126/126934.png" Priority="1" Order="Primary"></ToolbarItem>
+        <ToolbarItem x:Name="tb2" Text="Inicio" Priority="2" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb3" Text="Productos" Priority="3" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tbAdmin"  Text="Admin" Priority="5" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="6" Order="Secondary"></ToolbarItem>
+
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView>
             <StackLayout BackgroundColor="White">
                 <Label Text="Agregar Usuario" FontSize="Large" TextColor="Black" Margin="10" />
-                <Entry x:Name="txtNombre" Placeholder="Nombre" Keyboard="Text" Text="{Binding Nombre}" />
-                <Entry x:Name="txtApellido" Placeholder="Apellido" Keyboard="Text" Text="{Binding Apellido}" />
-                <Entry x:Name="txtCorreo" Placeholder="Correo" Keyboard="Text" Text="{Binding Correo}" />
-                <Entry x:Name="txtPassword" Placeholder="Password" Keyboard="Text" Text="{Binding Password}" />
-                <Button Text="Agregar" x:Name="btnAdd" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+                <Entry x:Name="txtNombre" Placeholder="Nombre" Keyboard="Text" Text="{Binding Nombre}" TextColor="Black"/>
+                <Entry x:Name="txtApellido" Placeholder="Apellido" Keyboard="Text" Text="{Binding Apellido}" TextColor="Black"/>
+                <Entry x:Name="txtCorreo" Placeholder="Correo" Keyboard="Text" Text="{Binding Correo}" TextColor="Black"/>
+                <Entry x:Name="txtPassword" Placeholder="Password" Keyboard="Text" Text="{Binding Password}" TextColor="Black"/>
+                <Button Text="Agregar" x:Name="btnAdd" FontSize="15" CornerRadius="25" TextColor="Black" BackgroundColor="GreenYellow" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
                 <Label Text="" x:Name="resultado" HorizontalOptions="Center"></Label>
 
                 <Label Text="Editar Usuario" FontSize="Large" TextColor="Black" Margin="10" />
-                <Entry x:Name="txtIdE" Placeholder="ID" Keyboard="Text" Text="{Binding idUsuario}" />
-                <Entry x:Name="txtNombreE" Placeholder="Nombre" Keyboard="Text" Text="{Binding Nombre}" />
-                <Entry x:Name="txtApellidoE" Placeholder="Apellido" Keyboard="Text" Text="{Binding Apellido}" />
-                <Entry x:Name="txtCorreoE" Placeholder="Correo" Keyboard="Text" Text="{Binding Correo}" />
-                <Entry x:Name="txtPasswordE" Placeholder="Password" Keyboard="Text" Text="{Binding Password}" />
-                <Button Text="Guardar" x:Name="btnEditar" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+                <Entry x:Name="txtIdE" Placeholder="ID" Keyboard="Text" Text="{Binding idUsuario}" TextColor="Black"/>
+                <Entry x:Name="txtNombreE" Placeholder="Nombre" Keyboard="Text" Text="{Binding Nombre}" TextColor="Black" />
+                <Entry x:Name="txtApellidoE" Placeholder="Apellido" Keyboard="Text" Text="{Binding Apellido}" TextColor="Black"/>
+                <Entry x:Name="txtCorreoE" Placeholder="Correo" Keyboard="Text" Text="{Binding Correo}" TextColor="Black" />
+                <Entry x:Name="txtPasswordE" Placeholder="Password" Keyboard="Text" Text="{Binding Password}" TextColor="Black"/>
+                <Button Text="Guardar" x:Name="btnEditar" FontSize="15" CornerRadius="25" TextColor="Black" BackgroundColor="GreenYellow" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
                 <Label Text="" x:Name="resultadoE" HorizontalOptions="Center"></Label>
 
                 <Label Text="Remover Usuario" FontSize="Large" TextColor="Black" Margin="10" />
-                <Entry x:Name="txtIdR" Placeholder="ID" Keyboard="Text" Text="{Binding idUsuario}" />
-                <Button Text="Remover" x:Name="btnRemover" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
-                <Label Text="" x:Name="resultadoR" HorizontalOptions="Center"></Label>
+                <Entry x:Name="txtIdR" Placeholder="ID" Keyboard="Text" Text="{Binding idUsuario}" TextColor="Black"/>
+                <Button Text="Remover" x:Name="btnRemover" FontSize="15" CornerRadius="25" TextColor="Black" BackgroundColor="GreenYellow" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+                <Label Text="" x:Name="resultadoR" HorizontalOptions="Center" TextColor="Black"></Label>
 
             </StackLayout>
         </ScrollView>

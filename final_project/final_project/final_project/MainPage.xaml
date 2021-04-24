@@ -14,20 +14,16 @@
                 <RowDefinition Height="Auto" ></RowDefinition>
             </Grid.RowDefinitions>
 
-            <Image Grid.Row="0" Source="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png" WidthRequest="100"
-                   HeightRequest="100" Margin="30,50,30,30"></Image>
+            <Image Grid.Row="0" Source="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png" WidthRequest="75"
+                   HeightRequest="75" Margin="30,50,30,30"></Image>
 
             <StackLayout Grid.Row="1" Padding="30,20" >
-                <Entry x:Name="email" Placeholder="Correo Electrónico" ></Entry>
-                <Entry x:Name="password"  Placeholder="Contraseña"  IsPassword="True" ></Entry>
-                <Label x:Name="log"></Label>
-                <StackLayout Grid.Row="1" Padding="10,40,30,0">
-                    <Button x:Name="btnIR"  Text="Ingresar" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"
-                       ></Button>
-                    <Button x:Name="btnRecuperar"  Text="Recuperar Contraseña" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"
-                        ></Button>
-                    <Button x:Name="btnRegistro"  Text="Registrarse" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"
-                        ></Button>
+                <Entry x:Name="email" Placeholder="Correo Electrónico" TextColor="Black" ></Entry>
+                <Entry x:Name="password"  Placeholder="Contraseña"  IsPassword="True" TextColor="Black" ></Entry>
+                    <Label x:Name="log"></Label>
+                <StackLayout Grid.Row="2" Padding="10,40,30,0">
+                    <Button x:Name="btnIR"  Text="Ingresar" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"></Button>
+                    <Button x:Name="btnRegistro"  Text="Registrarse" BackgroundColor="AliceBlue" TextColor="Black" BorderRadius="20"></Button>
                 </StackLayout>
 
             </StackLayout>

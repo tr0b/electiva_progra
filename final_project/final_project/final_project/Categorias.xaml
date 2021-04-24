@@ -9,7 +9,9 @@
         <ToolbarItem x:Name="tb2" Text="Inicio" Priority="2" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tb3" Text="Productos" Priority="3" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
-        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="5" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tbAdmin"  Text="Admin" Priority="5" Order="Secondary"></ToolbarItem>
+        <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="6" Order="Secondary"></ToolbarItem>
+
     </ContentPage.ToolbarItems>
 
     <ScrollView>
@@ -25,11 +27,8 @@
                 </Grid.ColumnDefinitions>
             </Grid>
             <Label x:Name="log"></Label>
-            <Label Text="" x:Name="lblnombre"></Label>
-            <Label Text="" x:Name="lbldescripcion"></Label>
-            <Label Text="" x:Name="lblprecio"></Label>
             <Image x:Name="imagen" HeightRequest="100" WidthRequest="100" Margin="10,2,2,2"></Image>
-            <Button x:Name="verProducto" Text="Ver producto" ></Button>
+            <Button x:Name="verProducto" Text="Ver producto" BackgroundColor="GreenYellow" CornerRadius="25" HorizontalOptions="Center"></Button>
 
             <ListView ItemsSource="{Binding Productos}" HasUnevenRows="True" ItemSelected="ListView_ItemSelected" ItemTapped="ListView_ItemTapped">
                 <ListView.ItemTemplate>

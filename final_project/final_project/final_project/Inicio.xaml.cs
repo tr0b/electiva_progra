@@ -19,8 +19,13 @@ namespace final_project
             tb2.Clicked += Tb2_Clicked;
             tb3.Clicked += Tb3_Clicked;
             tb4.Clicked += Tb4_Clicked;
-            btnManejoProductos.Clicked += ManejoProductos_Clicked;
-            btnManejoUsuarios.Clicked += ManejoUsuarios_Clicked;
+            tb5.Clicked += Tb5_Clicked;
+            tbAdmin.Clicked += TbAdmin_Clicked;
+        }
+        private void TbAdmin_Clicked(object sender, EventArgs e)
+        {
+
+            ((NavigationPage)this.Parent).PushAsync(new AdminPage());
         }
 
         private void Tb1_Clicked(object sender, EventArgs e)
@@ -43,16 +48,10 @@ namespace final_project
 
             ((NavigationPage)this.Parent).PushAsync(new MisPagos());
         }
-
-        private void ManejoProductos_Clicked(object sender, EventArgs e)
+        private void Tb5_Clicked(object sender, EventArgs e)
         {
 
-            ((NavigationPage)this.Parent).PushAsync(new ManejoProducto());
-        }
-        private void ManejoUsuarios_Clicked(object sender, EventArgs e)
-        {
-
-            ((NavigationPage)this.Parent).PushAsync(new ManejoUsuario());
+            ((NavigationPage)this.Parent).PushAsync(new MainPage());
         }
 
     }

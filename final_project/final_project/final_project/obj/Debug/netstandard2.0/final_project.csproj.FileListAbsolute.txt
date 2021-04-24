@@ -64,3 +64,7 @@ C:\Users\Asus\Documents\GitHub\electiva_progra\final_project\final_project\final
 C:\Users\Asus\Documents\GitHub\electiva_progra\final_project\final_project\final_project\obj\Debug\netstandard2.0\final_project.pdb
 C:\Users\Asus\Documents\GitHub\electiva_progra\final_project\final_project\final_project\obj\Debug\netstandard2.0\final_project.csprojAssemblyReference.cache
 C:\Users\Asus\Documents\GitHub\electiva_progra\final_project\final_project\final_project\obj\Debug\netstandard2.0\SignUp.xaml.g.cs
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project\obj\Debug\netstandard2.0\AdminPage.xaml.g.cs
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project\obj\Debug\netstandard2.0\ManejoProducto.xaml.g.cs
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project\obj\Debug\netstandard2.0\ManejoUsuario.xaml.g.cs
+C:\Users\rafac\Documents\GitHub\electiva_progra\final_project\final_project\final_project\obj\Debug\netstandard2.0\SignUp.xaml.g.cs

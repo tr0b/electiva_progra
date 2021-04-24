@@ -25,6 +25,7 @@ namespace final_project
             tb2.Clicked += Tb2_Clicked;
             tb3.Clicked += Tb3_Clicked;
             tb4.Clicked += Tb4_Clicked;
+            tb5.Clicked += Tb5_Clicked;
             verProducto.Clicked += VerProducto_Clicked;
             BindingContext = this;
             GetProducts();
@@ -62,6 +63,11 @@ namespace final_project
         private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             Product tappedItem = e.Item as Product;
+        }
+        private void Tb5_Clicked(object sender, EventArgs e)
+        {
+
+            ((NavigationPage)this.Parent).PushAsync(new MainPage());
         }
 
         private void GetProducts()
