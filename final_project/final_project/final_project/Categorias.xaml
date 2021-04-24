@@ -24,13 +24,14 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
             </Grid>
+            <Label x:Name="log"></Label>
             <Label Text="" x:Name="lblnombre"></Label>
             <Label Text="" x:Name="lbldescripcion"></Label>
             <Label Text="" x:Name="lblprecio"></Label>
             <Image x:Name="imagen" HeightRequest="100" WidthRequest="100" Margin="10,2,2,2"></Image>
             <Button x:Name="verProducto" Text="Ver producto" ></Button>
 
-            <ListView ItemsSource="{Binding Productos} " HasUnevenRows="True" ItemSelected="ListView_ItemSelected" ItemTapped="ListView_ItemTapped">
+            <ListView ItemsSource="{Binding Productos}" HasUnevenRows="True" ItemSelected="ListView_ItemSelected" ItemTapped="ListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

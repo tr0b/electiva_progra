@@ -15,9 +15,9 @@ namespace final_project
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Categorias : ContentPage
     {
-        public IList<Producto> Productos { get; private set; }
-        private static string ConnectionString = "Server = asusfinalproject.mysql.database.azure.com; Port = 3306; Database = asusfinalproject; Uid = mainuser@asusfinalproject; Pwd = Admin123; SslMode = Preferred;";
-
+        public IList<Product> Productos { get; set; }
+        string myConnectionString = "server=asusfinalproject.mysql.database.azure.com;uid=mainuser@asusfinalproject;" +
+                "pwd=Admin123;database=asusfinalproject";
         public Categorias()
         {
             InitializeComponent();
@@ -57,50 +57,60 @@ namespace final_project
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Producto selectedItem = e.SelectedItem as Producto;
+            Product selectedItem = e.SelectedItem as Product;
         }
         private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            Producto tappedItem = e.Item as Producto;
+            Product tappedItem = e.Item as Product;
         }
 
-        private IEnumerable<Producto> GetProducts()
+        private void GetProducts()
         {
-            MySqlDataReader reader = null;
-            var conn = new MySqlConnection(ConnectionString);
-            DataTable dataTable = new DataTable();
+            
 
-            try
-            {
-                string sql = "SELECT Nombre, Descripcion, Precio, Imagen FROM producto";
-                var cmd = new MySqlCommand(sql, conn);
+                string productosQuery = "SELECT Nombre, Descripcion, Precio, Imagen FROM producto";
 
-                conn.Open();
-                reader = cmd.ExecuteReader();
-
-                while (reader.Read())
+                //Productos.Add(new Producto
+                //{
+                //    Nombre = reader.GetString("Nombre"),
+                //    Descripcion = reader.GetString("Descripcion"),
+                //    Precio = reader.GetDouble("Precio"),
+                //    Imagen = reader.GetString("Imagen"),
+                //});
+                using (var conn = new MySqlConnection(myConnectionString))
                 {
-                    //Productos.Add(new Producto
-                    //{
-                    //    Nombre = reader.GetString("Nombre"),
-                    //    Descripcion = reader.GetString("Descripcion"),
-                    //    Precio = reader.GetDouble("Precio"),
-                    //    Imagen = reader.GetString("Imagen"),
-                    //});
-                lblnombre.Text = reader.GetString("Nombre");
-                lbldescripcion.Text = reader.GetString("Descripcion");
-                lblprecio.Text = "$" + Convert.ToString(reader.GetDouble("Precio"));
-                imagen.Source = reader.GetString("Imagen");
-            }
-                BindingContext = this;
-            }
+                    conn.Open(); // [NON ASYNC] Open Connection
+                    using (var productosCmd = new MySqlCommand(productosQuery))
+                    {
+                    try
+                    {
+                        productosCmd.Connection = conn;
+                        productosCmd.CommandText = productosQuery;
+                        Productos = new List<Product>();
+                        MySqlDataReader productosReader = productosCmd.ExecuteReader();
+                        
+                        while (productosReader.Read())
+                        {
+                            //lblnombre.Text += $"\n {productosReader.GetString(0)} - {productosReader.GetString(1)} - {productosReader.GetDouble(2).ToString()} - {productosReader.GetString(3)}";
+                            Productos.Add(new Product
+                            {
+                                Nombre = productosReader.GetString(0),
+                                Descripcion = productosReader.GetString(1),
+                                Precio = productosReader.GetDouble(2).ToString(),
+                                Imagen = productosReader.GetString(3)
+                            });
+                        };
 
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error:", ex.Message);
-            }
-                if (conn != null) conn.Close();
-                return Enumerable.Empty<Producto>();        
+                    } catch(Exception ex)
+                    {
+                        log.Text=ex.Message;
+                    } finally {
+                        conn.Close();
+                        BindingContext = this;
+                    }
+                    }
+
+                }      
         }
     }
 
