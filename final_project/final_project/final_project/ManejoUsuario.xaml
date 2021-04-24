@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="final_project.ManejoUsuario">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White">
+                <Label Text="Agregar Usuario" FontSize="Large" TextColor="Black" Margin="10" />
+                <Entry x:Name="txtNombre" Placeholder="Nombre" Keyboard="Text" Text="{Binding Nombre}" />
+                <Entry x:Name="txtApellido" Placeholder="Apellido" Keyboard="Text" Text="{Binding Apellido}" />
+                <Entry x:Name="txtCorreo" Placeholder="Correo" Keyboard="Text" Text="{Binding Correo}" />
+                <Entry x:Name="txtPassword" Placeholder="Password" Keyboard="Text" Text="{Binding Password}" />
+                <Button Text="Agregar" x:Name="btnAdd" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+                <Label Text="" x:Name="resultado" HorizontalOptions="Center"></Label>
+
+                <Label Text="Editar Usuario" FontSize="Large" TextColor="Black" Margin="10" />
+                <Entry x:Name="txtIdE" Placeholder="ID" Keyboard="Text" Text="{Binding idUsuario}" />
+                <Entry x:Name="txtNombreE" Placeholder="Nombre" Keyboard="Text" Text="{Binding Nombre}" />
+                <Entry x:Name="txtApellidoE" Placeholder="Apellido" Keyboard="Text" Text="{Binding Apellido}" />
+                <Entry x:Name="txtCorreoE" Placeholder="Correo" Keyboard="Text" Text="{Binding Correo}" />
+                <Entry x:Name="txtPasswordE" Placeholder="Password" Keyboard="Text" Text="{Binding Password}" />
+                <Button Text="Guardar" x:Name="btnEditar" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+                <Label Text="" x:Name="resultadoE" HorizontalOptions="Center"></Label>
+
+                <Label Text="Remover Usuario" FontSize="Large" TextColor="Black" Margin="10" />
+                <Entry x:Name="txtIdR" Placeholder="ID" Keyboard="Text" Text="{Binding idUsuario}" />
+                <Button Text="Remover" x:Name="btnRemover" TextColor="White" BackgroundColor="#808080" Margin="10,0,10,0" HeightRequest="40" HorizontalOptions="Center" />
+                <Label Text="" x:Name="resultadoR" HorizontalOptions="Center"></Label>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
