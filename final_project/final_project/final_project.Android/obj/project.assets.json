@@ -1973,24 +1973,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafac\\.nuget\\packages\\": {},
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
       "projectName": "final_project.Android",
-      "projectPath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
-      "packagesPath": "C:\\Users\\rafac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\obj\\",
+      "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\final_project.Android.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\rafac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2004,8 +2004,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {
-              "projectPath": "C:\\Users\\rafac\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj"
+            "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\electiva_progra\\final_project\\final_project\\final_project\\final_project.csproj"
             }
           }
         }

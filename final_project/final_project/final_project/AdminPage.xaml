@@ -6,8 +6,6 @@
         <ToolbarItem x:Name="tb0" IconImageSource="https://www.freepnglogos.com/uploads/logo-asus-png/brand-asus-company-logo-black-14.png"  Priority="0" Order="Primary"></ToolbarItem>
         <ToolbarItem x:Name="tb1" IconImageSource="https://image.flaticon.com/icons/png/512/126/126934.png" Priority="1" Order="Primary"></ToolbarItem>
         <ToolbarItem x:Name="tb2" Text="Inicio" Priority="2" Order="Secondary"></ToolbarItem>
-        <ToolbarItem x:Name="tb3" Text="Productos" Priority="3" Order="Secondary"></ToolbarItem>
-        <ToolbarItem x:Name="tb4"  Text="Mis Pagos" Priority="4" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tbAdmin"  Text="Admin" Priority="5" Order="Secondary"></ToolbarItem>
         <ToolbarItem x:Name="tb5"  Text="Cerrar sesión" Priority="6" Order="Secondary"></ToolbarItem>
 

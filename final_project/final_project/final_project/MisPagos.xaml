@@ -13,13 +13,27 @@
     </ContentPage.ToolbarItems>
 
     <ScrollView>
-        <StackLayout Padding="40,10,40,0">
-            <Label  Text="Mis Pagos" FontAttributes="Bold"  FontSize="24" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Label  Text="Selecciona el item para realizar el abono"  FontSize="Small" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Button BackgroundColor="GreenYellow" TextColor="Black" x:Name="btnCarrito" CornerRadius="25" Text="Ver producto" ></Button>
-            <StackLayout>
+        <StackLayout Padding="20,0,20,0">
+            <Label FontAttributes="Bold"  FontSize="24" Text="Mis Pagos" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Grid Padding="0,20,0,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
 
-            </StackLayout>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Articulo" FontAttributes="Bold"></Label>
+                <Label Grid.Row="0" Grid.Column="1" Text="Precio Total" FontAttributes="Bold"></Label>
+                <Label Grid.Row="0" Grid.Column="2" Text="Cuotas" FontAttributes="Bold"></Label>
+
+                <Label Grid.Row="1" Grid.Column="0"  Text="ZenBook Duo 14"></Label>
+                <Label Grid.Row="1" Grid.Column="1" Text="1590"></Label>
+                <Label Grid.Row="1" Grid.Column="2" Text="3"></Label>
+
+            </Grid>
         </StackLayout>
 
     </ScrollView>

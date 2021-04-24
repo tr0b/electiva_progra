@@ -17,20 +17,19 @@
     <ScrollView>
         <StackLayout Padding="20,10,20,10">
             <Label Text="Productos" FontSize="24" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"></Label>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition></RowDefinition>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-            </Grid>
-            <Label x:Name="log"></Label>
-            <Image x:Name="imagen" HeightRequest="100" WidthRequest="100" Margin="10,2,2,2"></Image>
-            <Button x:Name="verProducto" Text="Ver producto" BackgroundColor="GreenYellow" CornerRadius="25" HorizontalOptions="Center"></Button>
 
             <ListView ItemsSource="{Binding Productos}" HasUnevenRows="True" ItemSelected="ListView_ItemSelected" ItemTapped="ListView_ItemTapped">
+                <ListView.Header>
+                    <Grid HorizontalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text ="Laptop" FontSize="Medium" Grid.Column="2" HorizontalOptions="Fill"/>
+                        <Label Text ="OS" FontSize="Medium" Grid.Column="3" HorizontalOptions="Start"/>
+                        <Label Text ="$" FontSize="Medium" Grid.Column="4" HorizontalOptions="Start" />
+                    </Grid>
+                </ListView.Header>
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -43,16 +42,17 @@
                                     <ColumnDefinition Width="Auto"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <Label Grid.Column="1" Text="{Binding Nombre} " FontAttributes="Bold" />
+                                <Label Grid.Column="1" Text= "{Binding Nombre} " FontAttributes="Bold" />
                                 <Label Grid.Column="2" Text="{Binding Descripcion} " FontAttributes="Bold" />
-                                <Label Grid.Column="3" Text ="{Binding Precio} " VerticalOptions="End" />
+                                <Label Grid.Column="3" Text ="{Binding Precio} " VerticalOptions="Start" />
                                 <Image Grid.RowSpan="1" Source="{Binding Imagen}" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Label x:Name="log"></Label>
         </StackLayout>
     </ScrollView>
-
-</ContentPage>   
+</ContentPage>

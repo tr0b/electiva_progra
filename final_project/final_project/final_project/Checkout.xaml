@@ -34,8 +34,10 @@
             
             
             <Button Text="Verificar" FontSize="22" BackgroundColor="GreenYellow" 
-                        TextColor="Black" x:Name="btnConfirmar" CornerRadius="25" Grid.Row="4" Grid.Column="1" Grid.RowSpan="1"/>
+                        TextColor="Black" x:Name="btnConfirmar" CornerRadius="25" Grid.Row="4" Grid.Column="1" Grid.RowSpan="1" VerticalOptions="Center"/>
    
         </Grid>
+       
+        
     </ScrollView>
 </ContentPage>

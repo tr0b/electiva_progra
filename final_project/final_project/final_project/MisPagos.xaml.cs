@@ -20,7 +20,7 @@ namespace final_project
             tb3.Clicked += Tb3_Clicked;
             tb4.Clicked += Tb4_Clicked;
             tb5.Clicked += Tb5_Clicked;
-            btnCarrito.Clicked += BtnCarrito_Clicked;
+            //btnCarrito.Clicked += BtnCarrito_Clicked;
 
         }
 
